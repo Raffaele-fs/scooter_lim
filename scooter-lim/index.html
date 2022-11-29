@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- collegamento link tra il file html e quello css -->
+    <link rel="stylesheet" href="scooter-lim.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+   <!-- il contenitore servira per il beckground trasparente fatto su css -->
+    <div class="contenitore">
+      <header>
+        <!--titolo e logo centrale della pagina -->
+        <img class="logo" src="images/logo.png" alt="">
+        <h1>Taking Booleaners from A to B</h1>
+      </header>
+
+      <nav>
+
+        <!-- questo div servira' per la prima linea verde che metteremo n -->
+        <div class="prenotazione">
+          <!-- onclick l'avrei potuto utilizzare per collegarlo ai propri link, ma non l'ho ritenuto necessario, essendo che non l'abbiamo
+            utilizzato nelle nostre lezioni -->
+
+            <span><button type="button" name="Prenota">Prenota</button></span>
+            <span><button type="button" name="Termina">Termina Prenotazione</button></span>
+            <span><button type="button" name="Accendi">Accendi Luci</button></span>
+          </div>
+        </nav>
+        <section>
+          <!-- qui c'e' l'elenco di tutti gli utenti con i propri monopattini, le loro posizioni e la carica del monopattino che andro' a fare tramite css -->
+          <div class="gino">
+            <input type="checkbox" name="" value=""><h2>Monopattino Gino22</h2>
+            <!-- utilizziamo p per crearci spazio tra un testo ed un altro -->
+            <p>&#8614; Via Guadalametri-a 220 metri da te</p>
+            <p>Stato carica:</p>
+            <!-- questo h1 sara' lo spazio da utilizzare per mettere le cariche grafiche di ogni monopattino -->
+            <h1></h1>
+          </div>
+          <div class="mike">
+            <input type="checkbox" name="" value=""><h2>Monopattino Mike24</h2>
+            <p>&#8614; Via Ricciardoni-a 420 metri da te</p>
+            <p>Stato carica:</p>
+            <h1></h1>
+          </div>
+          <div class="fede">
+            <input type="checkbox" name="" value=""><h2>Monopattino Fede154</h2>
+            <p>&#8614; Via Mentarini-a 490 metri da te</p>
+            <p>Stato carica:</p>
+            <h1></h1>
+          </div>
+        </section>
+        </div>
+  </body>
+</html>
